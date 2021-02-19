@@ -123,7 +123,7 @@ class Docs extends React.Component {
             GitHub repository.{" "}
             <a
               target="_blank"
-              href="https://github.com/vincentcaitech/The-New-Maps-Project-Generate-CSV-1.0"
+              href="https://github.com/The-New-Maps-Project/NMP-CSV-Converter"
             >
               Go to GitHub repository
             </a>
