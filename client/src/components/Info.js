@@ -59,7 +59,10 @@ class Info extends React.Component {
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://nmpcsvconverter.netlify.app/">
+            <a
+              target="_blank"
+              href="https://csvconverter.thenewmapsproject.org/"
+            >
               Use the CSV Converter {">>"}
             </a>
           </li>

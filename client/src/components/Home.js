@@ -23,12 +23,7 @@ class Home extends React.Component {
             </h2>
             <ul id="resources" class="inhome">
               <li>
-                <a
-                 
-                  href="/algorithm"
-                >
-                  The Algorithm {">>"}
-                </a>
+                <a href="/algorithm">The Algorithm {">>"}</a>
               </li>
               <li>
                 <a href="/visualizer">Try the Visualizer {">>"}</a>
@@ -39,7 +34,7 @@ class Home extends React.Component {
               <li>
                 <a
                   target="_blank"
-                  href="https://nmpcsvconverter.netlify.app/"
+                  href="https://csvconverter.thenewmapsproject.org/"
                 >
                   Use the CSV Converter {">>"}
                 </a>
