@@ -22,13 +22,21 @@ class Login extends React.Component {
     });
   }
 
+  changeState = (e) => {
+    const { name, value } = e.target;
+    this.setState({ [name]: value, message: "", missionIsChanged: true });
+  };
+
   login = async () => {
     if (!this.state.email || !this.state.password) {
       this.setState({ message: "Please fill in all fields" });
     }
     await auth
       .signInWithEmailAndPassword(this.state.email, this.state.password)
-      .catch((err) => this.setState({ message: err.message }));
+      .catch((err) => {
+        console.error(err);
+        this.setState({ message: err.message });
+      });
     if (document.querySelector("#add-news #text-first")) {
       document.querySelector("#add-news #text-first").value = "";
     }
