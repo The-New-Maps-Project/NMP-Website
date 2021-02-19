@@ -47,7 +47,7 @@ class Algorithm extends React.Component {
           run and you local system,{" "}
           <a
             target="_blank"
-            href="https://github.com/vincentcaitech/The-New-Maps-Project-Algorithm"
+            href="https://github.com/The-New-Maps-Project/NMP-Algorithm"
           >
             Click Here
           </a>

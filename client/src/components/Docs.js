@@ -25,7 +25,7 @@ class Docs extends React.Component {
             repository for the algorithm.{" "}
             <a
               target="_blank"
-              href="https://github.com/vincentcaitech/The-New-Maps-Project-Algorithm"
+              href="https://github.com/The-New-Maps-Project/NMP-Algorithm"
             >
               Go to GitHub repository
             </a>
