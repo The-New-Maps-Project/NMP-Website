@@ -3,6 +3,6 @@ node_modules
 # Local Netlify folder
 .netlify
 
-/client/src/config/firebase.js
+#/client/src/config/firebase.js
 
 firebase.js

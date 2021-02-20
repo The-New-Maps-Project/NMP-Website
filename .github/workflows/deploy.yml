@@ -12,8 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - run: cd client && npm ci && npm run build
-      - run: cd build && echo "/* /index.html 200" > _redirects
-      - run: cd ..
+      - run: cd client/build && echo "/* /index.html 200" > _redirects
       - uses: jsmrcaga/action-netlify-deploy@master
         with:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
