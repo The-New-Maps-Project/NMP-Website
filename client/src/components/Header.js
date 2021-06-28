@@ -46,16 +46,14 @@ function Header() {
             </a>
           </li>
           <li>
-            <a href="/algorithm" className="no-box">
-              {window.outerWidth > 1270 ||
-              (window.outerWidth < 800 && window.outerWidth > 500)
-                ? "The Algorithm"
-                : "Algorithm"}
-            </a>
-          </li>
-          <li>
             <a href="/visualizer">Visualize</a>
           </li>
+          <li>
+            <a href="/algorithm" className="no-box">
+              Algorithm
+            </a>
+          </li>
+          
 
           <li className="dropdown-container">
             <div className="no-box">

@@ -35,8 +35,10 @@ class Datastore extends React.Component {
             The New Maps Data Store
           </div>
           <p>
-            Note: We are constantly updating the data store with more files, be
-            sure to check back to see if what you wanted is here!
+            We are constantly updating the data store with more files, be sure
+            to check back to see if what you wanted is here! Please read our
+            disclaimers and note that data provided here is NOT up to date or
+            accurate and is used for demonstrative purposes only.
           </p>
           <h2>Sample Input Files</h2>
           <p>Files to put into the algorithm</p>

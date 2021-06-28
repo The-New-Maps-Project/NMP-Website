@@ -3,7 +3,9 @@ import React from "react";
 function Footer() {
   return (
     <footer>
-      <div>&copy; Copyright The New Maps Project 2020</div>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimers">Disclaimers</a>
+      <div>&copy; The New Maps Project 2021</div>
     </footer>
   );
 }
