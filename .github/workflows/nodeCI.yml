@@ -13,4 +13,4 @@ jobs:
         with:
           node-version: 12
       - run: cd client && npm ci
-      - run: CI=false npm run build
+      - run: cd client && CI=false npm run build
