@@ -13,6 +13,8 @@ import Admin from "./components/Admin";
 import Algorithm from "./components/Algorithm";
 import Mission from "./components/Mission";
 import Team from "./components/Team";
+import Privacy from "./legal/privacy";
+import Disclaimers from "./legal/disclaimers";
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
           <Route path="/admin" component={Admin} />
           <Route path="/algorithm" component={Algorithm} />
           <Route path="/team" component={Team} />
+          <Route path="/privacy" component={Privacy} />
+          <Route path="/disclaimers" component={Disclaimers} />
         </Switch>
         <Footer />
       </div>

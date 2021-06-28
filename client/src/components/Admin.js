@@ -67,6 +67,8 @@ class Admin extends React.Component {
       })
       .then(() => {
         this.setState({ isLoading: false, missionIsChanged: false });
+      }).catch(e=>{
+        console.error(e);
       });
   };
 

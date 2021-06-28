@@ -1,6 +1,7 @@
 import React from "react";
 import Loading from "./Loading";
 import { storage, firestore } from "../config/firebase";
+import maicon from "../images/maicon.png"
 
 class Visual extends React.Component {
   constructor(props) {
@@ -270,12 +271,17 @@ class Visual extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="visual-container">
         {this.state.isLoading && <Loading />}
 
         <h3 id="visualizer-title">
           The New Maps <span style={{ color: "lightcoral" }}>Visualizer</span>
         </h3>
+        <p id="visualizer-description">Visualize examples of districts drawn by the New Maps Project Algorithm with different settings</p>
+        <div className="second-row">
+          <span>This is the legacy visualizer</span>
+          <p className="ma-p"><img src={maicon}></img> Use the <a style ={{margin: "0px 5px"}}target="_blank" href="https://maps.thenewmapsproject.org">Map Analysis</a> tool to visualize disticts with more flexibility, interactivity, and data analysis.</p>
+        </div>
         <section id="top-section">
           <div id="options-container">
             <div id="options-menu-buttons">
@@ -292,6 +298,9 @@ class Visual extends React.Component {
                 class="fa fa-bars"
               ></button>
             </div>
+            <p>
+              *For demonstrative purposes only, input data is NOT accurate, only to show examples of district drawings.
+            </p>
             <div id="options">
               {this.state.visualizeOptions.allOptions &&
                 this.state.visualizeOptions.allOptions

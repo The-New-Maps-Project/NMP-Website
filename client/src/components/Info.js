@@ -39,11 +39,19 @@ class Info extends React.Component {
           style={{ fontSize: "18px", lineHeight: "1.2" }}
         >
           Below are a list of resources The New Maps project offers, including
-          our algorithm, which you can download and run on our computer, the
-          online visualizer, the documentation for the project, and more.{" "}
+          the map analysis tool, the Java algorithm, the online visualizer, 
+          the documentation for the website, and more.{" "}
         </p>
         <br />
         <ul id="resources">
+        <li>
+            <a
+              target="_blank"
+              href="https://maps.thenewmapsproject.org/"
+            >
+              Map Analysis{">>"}
+            </a>
+          </li>
           <li>
             <a href="/visualizer">Try the Visualizer {">>"}</a>
           </li>
@@ -56,14 +64,6 @@ class Info extends React.Component {
               href="https://github.com/vincentcai48/The-New-Maps-Project-Algorithm"
             >
               Code for the Algorithm {">>"}
-            </a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              href="https://csvconverter.thenewmapsproject.org/"
-            >
-              Use the CSV Converter {">>"}
             </a>
           </li>
           <li>

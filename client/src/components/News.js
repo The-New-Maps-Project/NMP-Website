@@ -31,19 +31,17 @@ class News extends React.Component {
 
   render() {
     return (
-      <div>
-        <h2 id="news-text">NEWS</h2>
+      <div id="news">
+        <h2 id="news-text">NMP News</h2>
         {this.state.posts.map((e) => {
           return (
             <div className="post" key={e.title}>
-              <div class="news fas fa-newspaper">NEWS</div>
-              <h5>{e.title}</h5>
-              <p>{e.text}</p>
-              <div
-                style={{ opacity: "0.7", color: "#faffe4", marginLeft: "20px" }}
-              >
+              <h5><i className="fas fa-newspaper"></i>{e.title}</h5>
+              <div className="time">
                 {e.timestamp.toDate().toString()}
               </div>
+              <p>{e.text}</p>
+              
             </div>
           );
         })}
