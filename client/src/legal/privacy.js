@@ -161,9 +161,14 @@ export default function Privacy() {
       <h3>Use of Your Personal Data</h3>
       <p>The Organization may use Personal Data for the following purposes:</p>
       <ul>
-      <li>
-<p><strong>To manage Your Account:</strong> to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.</p>
-</li>
+        <li>
+          <p>
+            <strong>To manage Your Account:</strong> to manage Your registration
+            as a user of the Service. The Personal Data You provide can give You
+            access to different functionalities of the Service that are
+            available to You as a registered user.
+          </p>
+        </li>
         <li>
           <p>
             <strong>To provide and maintain our Service</strong>, including to
