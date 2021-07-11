@@ -33,7 +33,7 @@ class News extends React.Component {
     return (
       <div id="news">
         <h2 id="news-text">NMP News</h2>
-        {this.state.posts.map((e) => {
+        {this.state.posts.sort((a,b)=>b.timestamp.toDate().getTime()-a.timestamp.toDate().getTime()).map((e) => {
           return (
             <div className="post" key={e.title}>
               <h5><i className="fas fa-newspaper"></i>{e.title}</h5>
